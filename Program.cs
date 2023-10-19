@@ -19,7 +19,7 @@ class Program
         Console.Write("Enter the number of years: ");
         years = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Nimber of times the Interest will be Compounded: ");
+        Console.Write("Number of times the Interest will be Compounded: ");
         annualCompound = Convert.ToDouble(Console.ReadLine());
 
         for (int t = 1; t < years + 1; t++)
